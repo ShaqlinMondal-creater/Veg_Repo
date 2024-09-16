@@ -1,0 +1,105 @@
+/* one product */
+
+.cardc {
+    
+    box-shadow: 0 4px 8px 0 rgba(7, 1, 45, 0.822);
+    
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+  }
+  .cardc .pic{
+    margin: auto;
+    margin-top: 10px;
+    height: 70vh;
+    width: 40vw;
+    background-color: aqua;
+    margin-right: 10px;
+  }
+  .cardc .det{
+    margin: auto;
+    margin-top: 10px;
+    height: 78vh;
+    width: 30vw;
+    
+    margin-left: 10px;
+    
+  }
+  .head{
+    border: 2px solid #000 solid;
+    border-right: #000;
+    border-top: #000;
+  }
+  .head:hover{
+    background-color: darkred;
+    color:aliceblue
+  }
+  
+  .pricec {
+    color: rgb(210, 6, 6);
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .pricec:hover{
+    color:#f8f4f4;
+    background-color: black;
+  }
+  .cate{
+    color: lightgreen;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .cate:hover{
+    color: lightgreen;
+  text-shadow: 2px 2px 4px #000000;
+  }
+  .des{
+    margin-left:4px;
+    margin-right:4px;
+    text-align: left;
+    
+    width: 28vw;
+    height: 25vh;
+    font-weight: 700;
+  }
+  .btnn{
+    display: flex;
+    flex-direction: row;
+  }
+  .cat-rev{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  .checked {
+    color: orange;
+  }
+  .review{
+    text-align: left;
+  }
+  .cardc button {
+    
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cardc button:hover {
+    opacity: 0.8;
+    
+  }
+
+  
